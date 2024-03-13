@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <section id='top'>
-    <div  className="bg-gradient-to-br from-[#fff0f0] via-blue-[#1e2760] to-[#030a35] w-full flex justify-between items-center px-[9%] flex-wrap">
+    <div  className="bg-white w-full flex justify-between items-center px-[9%] flex-wrap">
       <Link href="/">
         <Image
           src="/tuweb_logo.png"
@@ -30,42 +30,42 @@ const Navbar = () => {
       <nav className={`${open ? 'block' : 'hidden'} lg:flex lg:items-center lg:w-auto w-full`}>
         <ul className="text-base text-white lg:flex lg:justify-between">
 
-        <Link href="/">
+        <Link href="/"  className='text-black'>
           <li className="lg:px-5 py-2 hover:text-gray-300  font-serif cursor-pointer text-xl">
           Inicio
           </li>
           </Link>
 
 
-          <Link href="#service">
+          <Link href="/#service" className='text-black'>
           <li className="lg:px-5 py-2 hover:text-white cursor-pointer font-serif text-xl">
             Servicios
           </li>
           </Link>
 
-          <Link href="#working">
-          <li className="lg:px-5 py-2 hover:text-white cursor-pointer font-serif text-xl  ">
-            Tecnologías
-          </li>
-          </Link>
+    
 
-
-          <Link href="#galeria">
+          <Link href="/#galeria"  className='text-black'>
           <li className="lg:px-5 py-2 hover:text-white cursor-pointer font-serif text-xl  ">
           Galeria
           </li>
           </Link>
 
 
-          <Link href="#working">
+          <Link href="/#contacto"  className='text-black'>
           <li className="lg:px-5 py-2 hover:text-white cursor-pointer font-serif text-xl  ">
             Contacto
           </li>
           </Link>
 
+          <Link href="/#technology"  className='text-black'>
+          <li className="lg:px-5 py-2 hover:text-white cursor-pointer font-serif text-xl  ">
+            Tecnologías
+          </li>
+          </Link>
 
 
-          <Link href="/login" className='hover:text-[#faf8c8] font-serif text-[#ffeb3b] '>
+          <Link href="/directContact" className='hover:text-[#faf8c8] font-serif text-[#ffeb3b] '>
           <li className="py-1 px-1 lg:px-2 lg:py-2  rounded-xl font-bold text-xl bg-[#040d3e] cursor-pointer lg:w-full mb-2 sm:w-[15rem] hover:font-bold">
           ESTIMAR PROYECTO
           </li>

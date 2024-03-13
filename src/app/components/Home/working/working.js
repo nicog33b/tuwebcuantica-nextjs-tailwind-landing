@@ -54,7 +54,7 @@ export default function SimpleSlider() {
   ];
 
   return (
-    <section id="working mt-12 mb-6">
+    <section id="technology" className="mt-12 mb-6">
     <div className='bg-gradient-to-br from-[#030a35] via-blue-[#1e2760] to-[#fff0f0] text-center mt-3 mb-3  border-t-2 border-b-2 border-black shadow-sm rounded-sm'>
      <SectionTitle titulo='Nuestras tecnologías' textColorClass='text-white'></SectionTitle>
 

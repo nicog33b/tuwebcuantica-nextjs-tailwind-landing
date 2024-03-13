@@ -37,29 +37,28 @@ const Footer = () => {
    
           <div className="flex flex-wrap justify-center -mx-3 lg:-mx-6 sm:text-center">
             <div className="w-full md:w-auto p-3 md:px-6">
-              <a href="#home" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
+              <a href="/" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
                 Inicio
               </a>
             </div>
             <div className="w-full md:w-auto p-3 md:px-6">
-              <a href="#service" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
+              <a href="/#service" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
                 Servicios
               </a>
             </div>
             <div className="w-full md:w-auto p-3 md:px-6">
-              <a href="#working" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
-               Tecnologías
-              </a>
-            </div>
-       
-            <div className="w-full md:w-auto p-3 md:px-6">
-              <a href="#gallery" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
+              <a href="#galeria" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
                 Galeria
               </a>
             </div>
             <div className="w-full md:w-auto p-3 md:px-6">
-              <a href="#contact" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
+              <a href="#contacto" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
              Contacto
+              </a>
+            </div>
+            <div className="w-full md:w-auto p-3 md:px-6">
+              <a href="#technology" className="inline-block text-lg text-gray-500 hover:text-gray-600 font-medium">
+               Tecnologías
               </a>
             </div>
           </div>
