@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 TuWebCuantica - Landing Page
 
-## Getting Started
+**TuWebCuantica** es una landing page moderna y optimizada, desarrollada con **Next.js** y **Tailwind CSS**, diseñada para vender servicios de desarrollo web y marketing digital. Esta página está pensada para atraer clientes potenciales y convertir visitas en ventas, ofreciendo una presentación profesional de nuestros servicios.
 
-First, run the development server:
+## 🚀 Descripción del Proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TuWebCuantica es la solución perfecta para empresas y emprendedores que buscan una presencia en línea fuerte y efectiva. La página ofrece una interfaz limpia y rápida, asegurando que los visitantes puedan navegar sin problemas y encontrar fácilmente la información sobre nuestros servicios.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React que facilita la creación de aplicaciones web rápidas y escalables.
+- **Tailwind CSS**: Un framework de CSS utilitario que permite un diseño moderno y altamente personalizable.
+- **Vercel**: Despliegue y hosting para aplicaciones Next.js, asegurando un rendimiento óptimo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Funcionalidades
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Diseño Responsivo**: Optimizado para verse y funcionar perfectamente en cualquier dispositivo, desde móviles hasta desktops.
+- **SEO Optimizado**: Implementación de prácticas SEO para mejorar la visibilidad en motores de búsqueda.
+- **Animaciones Suaves**: Uso de Tailwind CSS para agregar transiciones y efectos visuales que mejoran la experiencia del usuario.
+- **Carga Rápida**: Next.js y Tailwind CSS garantizan un tiempo de carga rápido, mejorando la retención de usuarios.
